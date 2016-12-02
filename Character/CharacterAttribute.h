@@ -21,8 +21,7 @@ private:
      int charisma;
 
 public:
-    CharacterAttribute(int intelligence, int wisdom, int strength, int dexterity, int constitution,
-                       int charisma);
+    CharacterAttribute(int intelligence, int wisdom, int strength, int dexterity, int constitution, int charisma);
     CharacterAttribute();
     virtual ~CharacterAttribute();
     int getIntelligence() ;

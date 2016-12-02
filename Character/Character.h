@@ -23,7 +23,7 @@ using namespace std;
 //! Class that implements a fighter
 class Character {
 public:
-    virtual Character(){};
+    Character(){};
     virtual ~Character(){};
     virtual int modifier(int dice, int bonus){ return 0;};
     virtual void wearEquipment(string type, int enhancement){};
@@ -35,9 +35,9 @@ public:
     virtual void takingDamage(int hitPoint){};
     virtual int getArmorClass(){return 0;};
     virtual void setArmorClass(int armorClass){};
-    virtual vector<int> getAttackBonus(){ return NULL;};
+    virtual vector<int> getAttackBonus(){};
     virtual void setAttackBonus(vector<int> attackBonus){};
-    virtual CharacterEquipment getCharacterEquipment(){ return NULL;};
+    virtual CharacterEquipment getCharacterEquipment(){};
     virtual void setCharacterEquipment(CharacterEquipment characterEquipment){};
     virtual CharacterAttribute getCharacterAttribute(){};
     virtual void setCharacterAttribute(CharacterAttribute characterAttribute){};

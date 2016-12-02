@@ -5,7 +5,7 @@
 #ifndef COMP345_A2_DOOR_H
 #define COMP345_A2_DOOR_H
 
-#import <string>
+#include <string>
 using namespace std;
 
 class Door {

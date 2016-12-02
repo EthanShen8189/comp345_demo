@@ -8,12 +8,14 @@
 #include "CharacterAttribute.h"
 
 //!Constructor: passes values to each attribute
-CharacterAttribute::CharacterAttribute(int intelligence, int wisdom, int strength, int dexterity,
-                                       int constitution, int charisma) : intelligence(intelligence),
-                                                                         wisdom(wisdom), strength(strength),
-                                                                         dexterity(dexterity),
-                                                                         constitution(constitution),
-                                                                         charisma(charisma) {}
+CharacterAttribute::CharacterAttribute(int intelligence, int wisdom, int strength, int dexterity,int constitution, int charisma){
+    this->intelligence = intelligence;
+    this->charisma = charisma;
+    this->constitution = constitution;
+    this->dexterity = dexterity;
+    this->wisdom = wisdom;
+    this->strength = strength;
+}
 
 
 int CharacterAttribute::getIntelligence()  {
@@ -66,7 +68,7 @@ void CharacterAttribute::setCharisma(int charisma) {
 
 
 CharacterAttribute::~CharacterAttribute() {
-
+ delete this;
 }
 
 CharacterAttribute * CharacterAttribute::CharacterAttribute() {

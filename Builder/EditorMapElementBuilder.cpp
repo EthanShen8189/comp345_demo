@@ -41,7 +41,7 @@ void EditorMapElementBuilder::build(string file, Chest* chest, Monster* monster,
 
             exit_node = map_node->first_node("Exit");
 
-            monster->Monster((int)monster_node->first_attribute("level")->value(),
+            monster = new Monster((int)monster_node->first_attribute("level")->value(),
                                    (int)monster_node->first_attribute("hitpoint")->value(),
                                    (int)monster_node->first_attribute("damagepoint")->value());
 

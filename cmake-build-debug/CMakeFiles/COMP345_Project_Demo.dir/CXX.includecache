@@ -6,6 +6,138 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Builder/Builder.h
+
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Builder/CharacterBuilder.h
+Builder.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Builder/Builder.h
+../Character/Fighter.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Character/Fighter.h
+../Dice/Dice.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Dice/Dice.h
+
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Builder/EditorMapElementBuilder.cpp
+EditorMapElementBuilder.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Builder/EditorMapElementBuilder.h
+
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Builder/EditorMapElementBuilder.h
+string
+-
+iostream
+-
+fstream
+-
+../MapElement/Monster.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/MapElement/Monster.h
+../MapElement/Chest.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/MapElement/Chest.h
+../rapidxml/rapidxml.hpp
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/rapidxml/rapidxml.hpp
+Builder.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Builder/Builder.h
+../MapElement/Door.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/MapElement/Door.h
+
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Builder/GameMapElementBuilder.cpp
+GameMapElementBuilder.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Builder/GameMapElementBuilder.h
+iostream
+-
+
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Builder/GameMapElementBuilder.h
+../MapElement/Chest.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/MapElement/Chest.h
+../MapElement/Monster.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/MapElement/Monster.h
+../Character/Fighter.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Character/Fighter.h
+Builder.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Builder/Builder.h
+string
+-
+
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Builder/PlayerBuilder.cpp
+PlayerBuilder.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Builder/PlayerBuilder.h
+
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Builder/PlayerBuilder.h
+fstream
+-
+iostream
+-
+CharacterBuilder.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Builder/CharacterBuilder.h
+../rapidxml/rapidxml.hpp
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/rapidxml/rapidxml.hpp
+
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Character/Backpack.cpp
+Backpack.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Character/Backpack.h
+
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Character/Backpack.h
+iostream
+-
+../Item/ItemContainer.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/ItemContainer.h
+
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Character/Character.h
+string
+-
+vector
+-
+../Item/Item.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/Item.h
+../Item/ItemContainer.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/ItemContainer.h
+CharacterEquipment.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Character/CharacterEquipment.h
+CharacterAttribute.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Character/CharacterAttribute.h
+Backpack.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Character/Backpack.h
+
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Character/CharacterAttribute.cpp
+CharacterAttribute.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Character/CharacterAttribute.h
+
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Character/CharacterAttribute.h
+
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Character/CharacterEquipment.cpp
+CharacterEquipment.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Character/CharacterEquipment.h
+
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Character/CharacterEquipment.h
+../Item/Item.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/Item.h
+../Item/Helmet.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/Helmet.h
+../Item/Armor.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/Armor.h
+../Item/Shield.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/Shield.h
+../Item/Ring.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/Ring.h
+../Item/Belt.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/Belt.h
+../Item/Boots.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/Boots.h
+../Item/Weapon.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/Weapon.h
+../Item/ItemContainer.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/ItemContainer.h
+
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Character/Fighter.cpp
+Fighter.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Character/Fighter.h
+
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Character/Fighter.h
+Character.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Character/Character.h
+Backpack.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Character/Backpack.h
+../Dice/Dice.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Dice/Dice.h
+
 C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Dice/Dice.cpp
 Dice.h
 C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Dice/Dice.h
@@ -22,6 +154,214 @@ random
 ctime
 -
 
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Driver/CharacterDriver.cpp
+CharacterDriver.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Driver/CharacterDriver.h
+../SaveManager/SaveManager.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/SaveManager/SaveManager.h
+
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Driver/CharacterDriver.h
+iostream
+-
+../Character/Fighter.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Character/Fighter.h
+../Builder/PlayerBuilder.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Builder/PlayerBuilder.h
+
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Driver/CombatDriver.cpp
+CombatDriver.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Driver/CombatDriver.h
+../Character/Fighter.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Character/Fighter.h
+
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Driver/CombatDriver.h
+../Character/Character.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Character/Character.h
+../MapElement/Chest.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/MapElement/Chest.h
+
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Driver/MapElementDriver.cpp
+cstring
+-
+MapElementDriver.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Driver/MapElementDriver.h
+../Character/Fighter.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Character/Fighter.h
+
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Driver/MapElementDriver.h
+../Character/Character.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Character/Character.h
+../MapElement/Chest.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/MapElement/Chest.h
+
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/Armor.cpp
+Armor.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/Armor.h
+
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/Armor.h
+cstdlib
+-
+ctime
+-
+Item.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/Item.h
+
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/Belt.cpp
+Belt.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/Belt.h
+
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/Belt.h
+cstdlib
+-
+ctime
+-
+iostream
+-
+Item.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/Item.h
+
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/Boots.cpp
+Boots.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/Boots.h
+
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/Boots.h
+cstdlib
+-
+ctime
+-
+iostream
+-
+Item.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/Item.h
+
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/Helmet.cpp
+Helmet.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/Helmet.h
+
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/Helmet.h
+cstdlib
+-
+ctime
+-
+iostream
+-
+Item.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/Item.h
+
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/Item.h
+string
+-
+
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/ItemContainer.h
+vector
+-
+Item.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/Item.h
+
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/Ring.cpp
+Ring.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/Ring.h
+
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/Ring.h
+cstdlib
+-
+ctime
+-
+iostream
+-
+Item.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/Item.h
+
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/Shield.cpp
+Shield.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/Shield.h
+
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/Shield.h
+cstdlib
+-
+ctime
+-
+Item.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/Item.h
+
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/Weapon.cpp
+Weapon.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/Weapon.h
+
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/Weapon.h
+cstdlib
+-
+ctime
+-
+iostream
+-
+Item.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/Item.h
+
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/MapElement/Chest.cpp
+Chest.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/MapElement/Chest.h
+
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/MapElement/Chest.h
+vector
+-
+../Item/Helmet.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/Helmet.h
+../Item/Armor.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/Armor.h
+../Item/Shield.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/Shield.h
+../Item/Ring.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/Ring.h
+../Item/Belt.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/Belt.h
+../Item/Boots.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/Boots.h
+../Item/Weapon.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/Weapon.h
+../Item/ItemContainer.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/ItemContainer.h
+
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/MapElement/Door.cpp
+Door.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/MapElement/Door.h
+
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/MapElement/Door.h
+string
+-
+
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/MapElement/Monster.cpp
+Monster.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/MapElement/Monster.h
+
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/MapElement/Monster.h
+string
+-
+
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/SaveManager/SaveManager.cpp
+cstring
+-
+SaveManager.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/SaveManager/SaveManager.h
+../Builder/PlayerBuilder.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Builder/PlayerBuilder.h
+
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/SaveManager/SaveManager.h
+../Character/Character.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Character/Character.h
+../MapElement/Monster.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/MapElement/Monster.h
+../MapElement/Chest.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/MapElement/Chest.h
+../rapidxml/rapidxml.hpp
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/rapidxml/rapidxml.hpp
+../rapidxml/rapidxml_print.hpp
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/rapidxml/rapidxml_print.hpp
+fstream
+-
+sstream
+-
+
 C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/main.cpp
 iostream
 -
@@ -29,4 +369,22 @@ vector
 -
 Dice/Dice.h
 C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Dice/Dice.h
+
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/rapidxml/rapidxml.hpp
+cstdlib
+-
+cassert
+-
+new
+-
+exception
+-
+
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/rapidxml/rapidxml_print.hpp
+rapidxml.hpp
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/rapidxml/rapidxml.hpp
+ostream
+-
+iterator
+-
 

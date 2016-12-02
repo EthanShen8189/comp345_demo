@@ -31,15 +31,15 @@ void PlayerBuilder::generateAttribute(CharacterAttribute characterAttribute, str
         sort(singleRoll.begin(), singleRoll.end(), greater<int>());
         ability.push_back(singleRoll[0] + singleRoll[1] + singleRoll[2]);
     }
-    delete dice;
+    dice.~Dice();
     sort(ability.begin(), ability.end(), greater<int>());
 
     if(type == "Bully"){
-        characterAttribute.CharacterAttribute(ability[3],ability[5],ability[0],ability[2],ability[1],ability[4]);
+        characterAttribute = CharacterAttribute(ability[3],ability[5],ability[0],ability[2],ability[1],ability[4]);
     }else if (type == "Nimble"){
-        characterAttribute.CharacterAttribute(ability[3],ability[5],ability[2],ability[0],ability[1],ability[4]);
+        characterAttribute = CharacterAttribute(ability[3],ability[5],ability[2],ability[0],ability[1],ability[4]);
     }else if (type == "Tank"){
-        characterAttribute.CharacterAttribute(ability[3],ability[5],ability[2],ability[1],ability[0],ability[4]);
+        characterAttribute = CharacterAttribute(ability[3],ability[5],ability[2],ability[1],ability[0],ability[4]);
     }
 
 }

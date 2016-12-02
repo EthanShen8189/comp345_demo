@@ -10,6 +10,7 @@
 #include "../MapElement/Chest.h"
 
 class CombatDriver {
+public:
     void run();
     void startCombat(Character * player, Character * enemy);
     void lootItems(Character *character, Chest * chest);

@@ -11,7 +11,7 @@ using namespace std;
 
 class Item {
 public:
-    virtual Item(){};
+    Item(){};
     virtual void setEnchantBonus(int i){};
     virtual string getClassAsText(){ return ""; };
     virtual int getEnchantmentBonus(){ return 0;};

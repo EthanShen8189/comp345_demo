@@ -6,6 +6,7 @@ Dice::Dice()
 
 Dice::~Dice()
 {
+    delete this;
 }
 
 template <typename T>
