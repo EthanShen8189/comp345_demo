@@ -1,0 +1,3 @@
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/cmake-build-debug/CMakeFiles/COMP345_Project_Demo.dir
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/cmake-build-debug/CMakeFiles/rebuild_cache.dir

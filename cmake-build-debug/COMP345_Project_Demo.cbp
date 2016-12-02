@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="COMP345_Project_Demo"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="COMP345_Project_Demo">
+				<Option output="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/cmake-build-debug/COMP345_Project_Demo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 COMP345_Project_Demo"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="COMP345_Project_Demo/fast">
+				<Option output="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/cmake-build-debug/COMP345_Project_Demo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 COMP345_Project_Demo/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Builder">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Builder/Builder.h">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Builder/CharacterBuilder.h">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Builder/EditorMapElementBuilder.cpp">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Builder/EditorMapElementBuilder.h">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Builder/GameMapElementBuilder.cpp">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Builder/GameMapElementBuilder.h">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Builder/PlayerBuilder.cpp">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Builder/PlayerBuilder.h">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Character">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Character/Backpack.cpp">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Character/Backpack.h">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Character/Character.h">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Character/CharacterAttribute.cpp">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Character/CharacterAttribute.h">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Character/CharacterEquipment.cpp">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Character/CharacterEquipment.h">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Character/Fighter.cpp">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Character/Fighter.h">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Dice">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Dice/Dice.cpp">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Dice/Dice.h">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Driver">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Driver/CharacterDriver.cpp">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Driver/CharacterDriver.h">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Driver/CombatDriver.cpp">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Driver/CombatDriver.h">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Driver/MapElementDriver.cpp">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Driver/MapElementDriver.h">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/Armor.cpp">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/Armor.h">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/Belt.cpp">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/Belt.h">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/Boots.cpp">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/Boots.h">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/Helmet.cpp">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/Helmet.h">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/Item.h">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/ItemContainer.h">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/Ring.cpp">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/Ring.h">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/Shield.cpp">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/Shield.h">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/Weapon.cpp">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Item/Weapon.h">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/MapElement">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/MapElement/Chest.cpp">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/MapElement/Chest.h">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/MapElement/Door.cpp">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/MapElement/Door.h">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/MapElement/Monster.cpp">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/MapElement/Monster.h">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/SaveManager">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/SaveManager/SaveManager.cpp">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/SaveManager/SaveManager.h">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/SaveManager/SavedFiles/SavedEditorMap.xml">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/main.cpp">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/rapidxml">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/rapidxml/license.txt">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/rapidxml/manual.html">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/rapidxml/rapidxml.hpp">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/rapidxml/rapidxml_iterators.hpp">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/rapidxml/rapidxml_print.hpp">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/rapidxml/rapidxml_utils.hpp">
+			<Option target="COMP345_Project_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Dice/Dice.cpp
+Dice.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Dice/Dice.h
+
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Dice/Dice.h
+stdio.h
+-
+iostream
+-
+regex
+-
+random
+-
+ctime
+-
+
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/main.cpp
+iostream
+-
+vector
+-
+Dice/Dice.h
+C:/Users/Ethan Shen/ClionProjects/COMP345_Project_Demo/Dice/Dice.h
+

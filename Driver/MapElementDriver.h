@@ -1,0 +1,14 @@
+//
+// Created by Ethan Shen on 12/1/2016.
+//
+
+#ifndef COMP345_PROJECT_DEMO_MAPELEMENTDRIVER_H
+#define COMP345_PROJECT_DEMO_MAPELEMENTDRIVER_H
+
+
+class MapElementDriver {
+
+};
+
+
+#endif //COMP345_PROJECT_DEMO_MAPELEMENTDRIVER_H

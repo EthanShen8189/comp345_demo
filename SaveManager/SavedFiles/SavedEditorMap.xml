@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MapEditor>
+    <Map width="8" length="8">
+        <Entrance xposition="0" yposition="4">
+            1
+        </Entrance>
+        <Exit xposition="5" yposition="7" key="true">
+            1
+        </Exit>
+        <Chest xposition="5" yposition="3">
+            <Item type="Helmet" enhancement="Intelligence" value="4">
+                Helmet
+            </Item>
+        </Chest>
+        <Monster xposition="2" yposition="2" name="Goliath" hitpoint="10" level="1" damagepoint="2">
+            1
+        </Monster>
+        <Walls>
+            <Wall xposition="0" ypositon="0">
+                1
+            </Wall>
+            <Wall xposition="0" ypositon="1">
+                2
+            </Wall>
+        </Walls>
+        <Character xposition="1" yposition="5" name="Thrall" type="fighter">
+
+        </Character>
+    </Map>
+</MapEditor>

@@ -1,0 +1,14 @@
+//
+// Created by Ethan Shen on 12/1/2016.
+//
+
+#ifndef COMP345_PROJECT_DEMO_COMBATDRIVER_H
+#define COMP345_PROJECT_DEMO_COMBATDRIVER_H
+
+
+class CombatDriver {
+
+};
+
+
+#endif //COMP345_PROJECT_DEMO_COMBATDRIVER_H

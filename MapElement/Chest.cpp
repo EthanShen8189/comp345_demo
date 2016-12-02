@@ -1,0 +1,22 @@
+//
+// Created by Ethan Shen on 2016-11-01.
+//
+
+#include "Chest.h"
+
+Chest::Chest(){}
+Chest::~Chest() {
+    delete this;
+}
+
+vector<Item> Chest::getChest() {
+    return chest;
+}
+
+void Chest::setChest(vector<Item> chest) {
+    Chest::chest = chest;
+}
+
+void Chest::pushItemIntoChest(Item item) {
+    Chest::chest.push_back(item);
+}
