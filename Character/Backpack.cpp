@@ -24,5 +24,6 @@ void Backpack::printAllItem() {
     int index = 0;
     for(Item i: inventory){
         cout<<index<<": "<<i.getClassAsText()<<i.getEnchantmentType()<<"+"<<i.getEnchantmentBonus()<< endl;
+        index++;
     }
 }

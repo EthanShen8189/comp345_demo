@@ -144,7 +144,7 @@ void Fighter::setBackpack(Backpack backpack) {
 }
 
 void Fighter::printStatus() {
-    cout<<"Hey! looks like you are a "<<type<<endl
+    cout<<"Type: "<<type<<endl
         <<"Level:"<<this->level<< endl
         <<"Hit Point"<<this->hitPoint<< endl
         <<"Armor Class"<<this->armorClass<< endl
@@ -155,6 +155,10 @@ void Fighter::printStatus() {
         <<"Intelligence: "<<characterAttribute.getIntelligence()<<endl
         <<"Charisma: "<<characterAttribute.getCharisma()<<endl
         <<"Wisdom: "<<characterAttribute.getWisdom();
+}
+
+Backpack Fighter::getBackpack() {
+    return Fighter::backpack;
 }
 
 

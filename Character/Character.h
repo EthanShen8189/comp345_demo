@@ -46,6 +46,7 @@ public:
     virtual void setLevel(int level){};
     virtual void setType(string type){};
     virtual void setBackpack(Backpack backpack){};
+    virtual Backpack getBackpack(){};
     virtual void printStatus(){};
 
 };

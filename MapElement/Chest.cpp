@@ -20,3 +20,17 @@ void Chest::setChest(vector<Item> chest) {
 void Chest::pushItemIntoChest(Item item) {
     Chest::chest.push_back(item);
 }
+
+void Chest::printAllItem() {
+    int index = 0;
+    for(Item i: chest){
+        cout<<index<<": "<<i.getClassAsText()<<i.getEnchantmentType()<<"+"<<i.getEnchantmentBonus()<< endl;
+        index++;
+    }
+}
+
+void Chest::emptyChest() {
+    while(!chest.empty()){
+        chest.pop_back();
+    }
+}

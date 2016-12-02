@@ -25,6 +25,8 @@ public:
     vector<Item> getChest() ;
     void setChest(vector<Item> chest);
     void pushItemIntoChest(Item item);
+    void printAllItem();
+    void emptyChest();
     virtual ~Chest();
 };
 

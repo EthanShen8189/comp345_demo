@@ -26,16 +26,15 @@ private:
     Item items[7] = {Helmet(0,NULL), Armor(0,NULL), Shield(0,NULL), Ring(0,NULL), Belt(0,NULL), Boots(0,NULL), Weapon(0,NULL)};
 public:
     CharacterEquipment();
-
     virtual ~CharacterEquipment();
-
-    Helmet equipHelmet(Helmet *helmet);
-    Armor equipArmor(Armor *armor);
-    Shield equipShield(Shield *shield);
-    Ring equipRing(Ring *ring);
-    Belt equipBelt(Belt *belt);
-    Boots equipBoots(Boots *boots);
-    Weapon equipWeapon(Weapon *weapon);
+    Item equipHelmet(Item *helmet);
+    Item equipArmor(Item *armor);
+    Item equipShield(Item *shield);
+    Item equipRing(Item *ring);
+    Item equipBelt(Item *belt);
+    Item equipBoots(Item *boots);
+    Item equipWeapon(Item *weapon);
+    void printAllEquipment();
 
 
 };

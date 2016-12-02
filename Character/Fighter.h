@@ -45,6 +45,7 @@ public:
     void updateAttribute(string type, int enhancement);
     string getType();
     void printStatus();
+    Backpack getBackpack();
     bool isValidFighter();
 };
 
