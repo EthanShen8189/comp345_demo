@@ -4,6 +4,7 @@
 
 #include "Fighter.h"
 
+
 Fighter::Fighter() {
 }
 
@@ -17,8 +18,6 @@ Fighter::Fighter(int level, int hitPoint, int armorClass, string type, vector<in
     this->characterEquipment = characterEquipment;
 }
 
-//! Implementation of the verification of a newly created Fighter
-//! @return bool value, true of the fighter is valid (stats should be in the 3-18 range for a new fighter), false if invalid.
 bool Fighter::isValidFighter() {
     const MIN = 3;
     const MAX = 18;
@@ -159,6 +158,24 @@ void Fighter::printStatus() {
 
 Backpack Fighter::getBackpack() {
     return Fighter::backpack;
+}
+
+void Fighter::attack(Character *opponent) {
+    Dice dice = Dice();
+    for(int i = 0; i< attackBonus.size(); i++){
+        if(attackBonus[i]!=0){
+            cout<<"Attack round:"<<i+1;
+            int attackScore = dice.roll("1d20")[0] + attackBonus[i] + characterAttribute.getStrength();
+            if(attackScore > opponent->getArmorClass()){
+                cout<<"Effective Attack!";
+                int damage = dice.roll("1d6")[0] + characterAttribute.getStrength();
+                cout<<"Damage output:"<<damage;
+                opponent->takingDamage(damage);
+            }else{
+                cout<<"Attack missed!";
+            }
+        }
+    }
 }
 
 

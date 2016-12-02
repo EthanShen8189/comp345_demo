@@ -23,6 +23,7 @@ void Chest::pushItemIntoChest(Item item) {
 
 void Chest::printAllItem() {
     int index = 0;
+    cout<<"The chest contains:";
     for(Item i: chest){
         cout<<index<<": "<<i.getClassAsText()<<i.getEnchantmentType()<<"+"<<i.getEnchantmentBonus()<< endl;
         index++;

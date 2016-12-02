@@ -7,8 +7,9 @@
 
 void CharacterDriver::run() {
     int flag = -1;
-    Fighter * fighter =new Fighter();
     while(flag != 0){
+        Fighter * fighter =new Fighter();
+
             cout<<"Please choose action for demo:";
             cout<<"1. Create and save a new player"<< endl
                 <<"2. Level up an existing player"<< endl
@@ -18,16 +19,20 @@ void CharacterDriver::run() {
             cin>>flag;
             if(flag == 1){
                createNewPlayer();
+                delete fighter;
             }else if(flag == 2){
                playerLevelUp(fighter);
+                delete fighter;
             }else if(flag ==3){
                 string playerfile = "../SaveManager/SavedFiles/Player.xml";
                 loadPlayer(playerfile, fighter);
+                delete fighter;
             }else if(flag == 0){
                 delete fighter;
                 break;
             }else{
                 flag = -1;
+                delete fighter;
                 cout<<"Please enter an integer between 1-3";
             }
     }

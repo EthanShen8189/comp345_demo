@@ -23,7 +23,7 @@
 
 class CharacterEquipment : public ItemContainer{
 private:
-    Item items[7] = {Helmet(0,NULL), Armor(0,NULL), Shield(0,NULL), Ring(0,NULL), Belt(0,NULL), Boots(0,NULL), Weapon(0,NULL)};
+    vector<Item> items = {Helmet(0,NULL), Armor(0,NULL), Shield(0,NULL), Ring(0,NULL), Belt(0,NULL), Boots(0,NULL), Weapon(0,NULL)};
 public:
     CharacterEquipment();
     virtual ~CharacterEquipment();
@@ -34,6 +34,7 @@ public:
     Item equipBelt(Item *belt);
     Item equipBoots(Item *boots);
     Item equipWeapon(Item *weapon);
+    vector<Item> getItems();
     void printAllEquipment();
 
 

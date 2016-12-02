@@ -6,8 +6,13 @@
 #define COMP345_PROJECT_DEMO_COMBATDRIVER_H
 
 
-class CombatDriver {
+#include "../Character/Character.h"
+#include "../MapElement/Chest.h"
 
+class CombatDriver {
+    void run();
+    void startCombat(Character * player, Character * enemy);
+    void lootItems(Character *character, Chest * chest);
 };
 
 

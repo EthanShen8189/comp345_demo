@@ -16,7 +16,7 @@ CharacterAttribute::CharacterAttribute(int intelligence, int wisdom, int strengt
                                                                          charisma(charisma) {}
 
 
-int CharacterAttribute::getIntelligence() const {
+int CharacterAttribute::getIntelligence()  {
     return intelligence;
 }
 
@@ -24,7 +24,7 @@ void CharacterAttribute::setIntelligence(int intelligence) {
     CharacterAttribute::intelligence = intelligence;
 }
 
-int CharacterAttribute::getWisdom() const {
+int CharacterAttribute::getWisdom()  {
     return wisdom;
 }
 
@@ -32,7 +32,7 @@ void CharacterAttribute::setWisdom(int wisdom) {
     CharacterAttribute::wisdom = wisdom;
 }
 
-int CharacterAttribute::getStrength() const {
+int CharacterAttribute::getStrength()  {
     return strength;
 }
 
@@ -40,7 +40,7 @@ void CharacterAttribute::setStrength(int strength) {
     CharacterAttribute::strength = strength;
 }
 
-int CharacterAttribute::getDexterity() const {
+int CharacterAttribute::getDexterity()  {
     return dexterity;
 }
 
@@ -48,7 +48,7 @@ void CharacterAttribute::setDexterity(int dexterity) {
     CharacterAttribute::dexterity = dexterity;
 }
 
-int CharacterAttribute::getConstitution() const {
+int CharacterAttribute::getConstitution()  {
     return constitution;
 }
 
@@ -56,7 +56,7 @@ void CharacterAttribute::setConstitution(int constitution) {
     CharacterAttribute::constitution = constitution;
 }
 
-int CharacterAttribute::getCharisma() const {
+int CharacterAttribute::getCharisma()  {
     return charisma;
 }
 

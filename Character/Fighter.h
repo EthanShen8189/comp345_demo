@@ -8,6 +8,7 @@
 
 #include "Character.h"
 #include "Backpack.h"
+#include "../Dice/Dice.h"
 
 
 class Fighter : public Character{
@@ -46,6 +47,7 @@ public:
     string getType();
     void printStatus();
     Backpack getBackpack();
+    void attack(Character * opponent);
     bool isValidFighter();
 };
 

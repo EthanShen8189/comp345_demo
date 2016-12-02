@@ -28,14 +28,14 @@ vector<int> Dice::roll(string dice) {
         if (dice[i] == 'd') typeBreak = i;
         if (dice[i] == '+') optBreak = i;
     }
-    roll = stoi(dice.substr(0, typeBreak));
+    roll = atoi(dice.substr(0, typeBreak));
     if (optBreak == -1) {
-        range = stoi(dice.substr(typeBreak + 1));
+        range = atoi(dice.substr(typeBreak + 1));
         opt = 0;
     }
     else {
-        range = stoi(dice.substr(typeBreak + 1, optBreak - typeBreak - 1));
-        opt = stoi(dice.substr(optBreak + 1));
+        range = atoi(dice.substr(typeBreak + 1, optBreak - typeBreak - 1));
+        opt = atoi(dice.substr(optBreak + 1));
     }
     //! compute result
     vector<int> result;

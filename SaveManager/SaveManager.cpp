@@ -116,7 +116,7 @@ void SaveManager::saveChest(Chest * chest) {
     rapidxml::print(std::back_inserter(xml_as_string), doc);
 
 // Save to file
-    std::ofstream file_stored("../SaveManager/SavedFiles/Item.xml");
+    std::ofstream file_stored("../SaveManager/SavedFiles/Chest.xml");
     file_stored << doc;
     file_stored.close();
     doc.clear();

@@ -47,6 +47,7 @@ public:
     virtual void setType(string type){};
     virtual void setBackpack(Backpack backpack){};
     virtual Backpack getBackpack(){};
+    virtual void attack(Character * character){};
     virtual void printStatus(){};
 
 };

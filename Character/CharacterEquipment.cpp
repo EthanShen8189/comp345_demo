@@ -57,3 +57,7 @@ void CharacterEquipment::printAllEquipment() {
             <<" Enchantment Bonus: "<<i.getEnchantmentBonus()<< endl;
     }
 }
+
+vector<Item> CharacterEquipment::getItems()  {
+    return items;
+}

@@ -8,12 +8,12 @@
 
 void MapElementDriver::run() {
     int flag = -1;
-    Chest *chest =new Chest();
-    Character * character = new Fighter();
-    Item boots = Boots();
-    chest->pushItemIntoChest(boots);
-
     while(flag != 0){
+        Chest *chest =new Chest();
+        Character * character = new Fighter();
+        Item boots = Boots();
+        chest->pushItemIntoChest(boots);
+
         cout<<"Please choose action for demo:";
         cout<<"1. View my inventory"<< endl
             <<"2. View a Chest"<< endl
@@ -28,6 +28,7 @@ void MapElementDriver::run() {
             cin>>changePromt;
             if(changePromt == 1) {
                 changeEquipment(character);
+                delete character,chest;
             }
         }else if(flag == 2){
             int promt;
@@ -36,17 +37,21 @@ void MapElementDriver::run() {
             cin>>promt;
             if(promt == 1){
                 lootChest(chest, character);
+                delete character,chest;
             }else{
                 cout<<"Sorry, I don't understand.";
+                delete character,chest;
             }
         }else if(flag ==3){
             viewCharacterStats(character);
+            delete character,chest;
         }else if(flag == 0){
             delete character,chest;
             break;
         }else{
             flag = -1;
             cout<<"Please enter an integer between 1-3";
+            delete character,chest;
         }
     }
 }
