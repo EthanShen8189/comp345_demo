@@ -3,6 +3,7 @@
 //
 
 #include "CharacterDriver.h"
+#include "../SaveManager/SaveManager.h"
 
 void CharacterDriver::run() {
     int flag = -1;
@@ -20,7 +21,8 @@ void CharacterDriver::run() {
             }else if(flag == 2){
                playerLevelUp(fighter);
             }else if(flag ==3){
-                player->setType("Tank");
+                string playerfile = "../SaveManager/SavedFiles/Player.xml";
+                loadPlayer(playerfile, fighter);
             }else if(flag == 0){
                 delete fighter;
                 break;
@@ -64,6 +66,14 @@ void CharacterDriver::createNewPlayer() {
 
     player->printStatus();
 
+    cout<<"Do you want to save this Fighter to file? 0:No, 1:Yes";
+    cin>>flag;
+    if(flag==1){
+        savePlayer(player);
+    }else{
+        cout<<"Player deleted, Bye!";
+    }
+
     delete player,playerBuilder;
 
 }
@@ -76,4 +86,18 @@ void CharacterDriver::playerLevelUp(Fighter *fighter) {
     fighter->printStatus();
 
     delete playerBuilder;
+}
+
+void CharacterDriver::savePlayer(Character *fighter) {
+    SaveManager saveManager = SaveManager();
+    cout<<"Saving Player......";
+    saveManager.savePlayer(fighter);
+
+    cout<<"Done!";
+}
+
+void CharacterDriver::loadPlayer(string file, Character *character) {
+    PlayerBuilder playerBuilder =  PlayerBuilder();
+    playerBuilder.loadPlayer(file, character);
+
 }

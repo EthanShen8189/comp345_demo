@@ -14,7 +14,8 @@ public:
     void run();
     void createNewPlayer();
     void playerLevelUp(Fighter *fighter);
-    void savePlayer(Fighter * fighter);
+    void savePlayer(Character * fighter);
+    void loadPlayer(string file, Character * character);
 };
 
 

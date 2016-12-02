@@ -85,4 +85,43 @@ PlayerBuilder::~PlayerBuilder() {
 
 }
 
+void PlayerBuilder::loadPlayer(string file, Character * character) {
+    cout<<"Loading Player......."<< endl;
+
+    xml_document<> doc;
+    xml_node<> * character_node;
+    xml_node<> * fighter_node;
+    xml_node<> * attackBonus_node;
+
+    ifstream theFile(file);
+    vector<char> buffer((istreambuf_iterator<char>(theFile)), istreambuf_iterator<char>());
+
+    buffer.push_back('\0');
+
+    doc.parse<0>(&buffer[0]);
+
+    character_node = doc.first_node("Character");
+
+    if(character_node != NULL){
+        fighter_node = character_node->first_node("Fighter");
+        if(fighter_node != NULL){
+        character->setType(fighter_node->first_attribute("type")->value());
+        character->setLevel((int)fighter_node->first_attribute("level")->value());
+        character->setHitPoint((int)fighter_node->first_attribute("HP")->value());
+        character->setArmorClass((int)fighter_node->first_attribute("armorClass")->value());
+
+        attackBonus_node = fighter_node->first_node("AttackBonus");
+            vector<int> aBbuffer;
+            for(int i=0; i<4; i++){
+                aBbuffer.push_back((int)attackBonus_node->first_attribute((const char *) i)->value());
+            }
+            character->setAttackBonus(aBbuffer);
+        }
+
+    }
+    doc.clear();
+
+    cout<<"Finished Loading.....";
+}
+
 

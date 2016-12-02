@@ -49,8 +49,8 @@ void EditorMapElementBuilder::build(string file, Chest* chest, Monster* monster,
             buildDoors(entrance_node,exit_node,entrance,exit);
         }
     }
-
-    cout<<"Finished map loarding...." << endl;
+    doc.clear();
+    cout<<"Finished map loading...." << endl;
 
 }
 
